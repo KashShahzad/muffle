@@ -1,16 +1,21 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import About from "../components/About";
+import Features from "../components/Features";
+import Hero from "../components/Hero";
+import Subscribe from "../components/Subscribe";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Muffle: Order Anything Anywhere</title>
-        <meta name="description" content="food delivery application" />
+        <title>Duedale</title>
+        <meta name="description" content="E-Commerce Solution" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      homepage
+      <Hero />
+      <About />
+      <Features />
+      <Subscribe />
     </div>
   );
 }

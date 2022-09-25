@@ -1,0 +1,24 @@
+.container {
+  height: 65vh;
+  display: flex;
+  margin-top: 0.5em;
+  justify-content: flex-start;
+  overflow: auto;
+  background-color: pink;
+}
+
+.card {
+  background-color: var(--main-bg-color);
+  color: white;
+  display: flex;
+  margin-right: 0.5em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 22em;
+}
+
+.card:last-child {
+  margin-right: 0;
+}

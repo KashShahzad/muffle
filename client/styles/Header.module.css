@@ -1,0 +1,59 @@
+.container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: var(--main-bg-color);
+  padding: 0 3em;
+}
+
+.deck {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.dplus {
+  padding: 0 10em;
+}
+
+.logo {
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  font-family: "Roboto Slab", serif;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  font-size: 0.9rem;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  width: 40em;
+}
+
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listItem {
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1em 0;
+  overflow: hidden;
+}

@@ -1,17 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Sans+Pro&display=swap");
+:root {
+  --main-bg-color: #2a9d8f;
+  --secondary-bg-color: #e76f51;
+  --gray-color: #222;
+  --black-color: #17202a;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  display: block;
+  font-family: "Source Sans Pro", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: var(--main-bg-color);
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }

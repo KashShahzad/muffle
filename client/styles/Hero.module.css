@@ -1,0 +1,54 @@
+.container {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.main {
+  background-color: var(--main-bg-color);
+  display: flex;
+  color: white;
+  margin: 0;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img {
+  display: flex;
+  font-size: 3rem;
+  width: 55%;
+  height: 100%;
+}
+
+.text {
+  height: 100%;
+  width: 45%;
+  background-color: #e9c46a;
+  padding: 0 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: var(--black-color);
+}
+
+.app {
+  margin: 0 0.5em;
+}

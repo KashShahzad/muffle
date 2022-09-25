@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.5em;
+  height: 30em;
+  overflow: hidden;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: blue;
+  height: 100%;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: pink;
+  height: 100%;
+}
