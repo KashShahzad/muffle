@@ -26,7 +26,8 @@
 .logo {
   cursor: pointer;
   letter-spacing: 0.1rem;
-  font-family: "Roboto Slab", serif;
+  line-height: 1.2;
+  font-family: "Secular One", sans-serif;
 }
 
 .form {
@@ -46,8 +47,9 @@
 
 .auth {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 7em;
 }
 
 .listItem {
@@ -56,4 +58,13 @@
   cursor: pointer;
   padding: 1em 0;
   overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+  .form {
+    visibility: hidden;
+  }
+  .deck {
+    visibility: hidden;
+  }
 }

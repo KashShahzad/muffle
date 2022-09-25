@@ -5,14 +5,23 @@ function Hero() {
   return (
     <div className={styles.container}>
       <div className={styles.message}>
-        <p>We Ship Pakistan's Most Loved Food Nationwide</p>
+        <p>
+          <span>🚀</span> We Ship Pakistan's Most Loved Foods Nationwide{" "}
+          <span>❤️</span>
+        </p>
       </div>
       <div className={styles.main}>
-        <div className={styles.desc}>
-          <div className={styles.img}></div>
-          <div className={styles.text}>
-            <h1>The whole store and more, now at your fingertips</h1>
-          </div>
+        <div className={styles.img}>
+          <Image
+            src="/img/bg0.jpg"
+            width={1000}
+            height={300}
+            objectFit="cover"
+            objectPosition="center"
+          />
+        </div>
+        <div className={styles.text}>
+          <p>All the popular dishes are here</p>
         </div>
       </div>
     </div>

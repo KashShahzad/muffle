@@ -1,5 +1,6 @@
 import styles from "../styles/Header.module.css";
-import Image from "next/image";
+import { MdLanguage } from "react-icons/md";
+import { FaShoppingCart } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -11,18 +12,18 @@ const Header = () => {
         <p>About & Help</p>
         <form action="" className={styles.form}>
           <input
-            type="text"
+            type="search"
             placeholder="Search Pakistan's Greatest Food & Shops"
             className={styles.input}
           />
         </form>
-        <p>Language</p>
+        <MdLanguage style={{ fontSize: "1.6rem" }} />
         <div className={styles.auth}>
           <p>Login</p>
           <span>|</span>
           <p>Signup</p>
         </div>
-        <p>Cart</p>
+        <FaShoppingCart style={{ fontSize: "1.4rem" }} />
       </div>
       <div className={`${styles.deck} ${styles.dplus}`}>
         <span className={styles.listItem}>Muffle Picks</span>

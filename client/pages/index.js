@@ -8,14 +8,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Duedale</title>
-        <meta name="description" content="E-Commerce Solution" />
+        <title>Muffle: Food Paradise</title>
+        <meta
+          name="description"
+          content="We ship Pakistan's most loved foods nationwide"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <About />
+      {/* <About />
       <Features />
-      <Subscribe />
+      <Subscribe /> */}
     </div>
   );
 }
