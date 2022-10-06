@@ -6,12 +6,12 @@ const Footer = () => {
       <div className={styles.proj}>
         <p
           className={styles.pr}
-          onClick={() => window.open("https://www.kashinnov.com")}>
+          onClick={() => window.open("https://www.induspie.com")}>
           Induspie
         </p>
         <p
           className={styles.pr}
-          onClick={() => window.open("https://cafepie.kashinnov.com")}>
+          onClick={() => window.open("https://cafepie.induspie.com")}>
           Cafepie
         </p>
       </div>
